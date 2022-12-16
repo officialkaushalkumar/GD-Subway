@@ -1,0 +1,22 @@
+touch .gitignore (create a file in which we place names of folder/file that we don't want to commit)
+git config --global user.name "kaushal kumar"
+git config --global user.email "kaushal2000pathak@gmail.com"
+
+(set user name and user email)
+
+git init(initialize as git repository)
+git add .  (all files comes to staging area except file in .gitignore file)
+git commit -m "first commit"   (creates a commit)
+git status  (checks for working tree is clean or not) # not nessesary
+ssh-keygen -t rsa -b 4096 -C "kaushal2000pathak@gmail.com" (generate ssh key for our computer)
+find sha256 key and copy and than paste it to the github account ssh-key section
+
+git remote add origin <ssh url.git> (links folder to the github repository)
+
+it errors occurs than use it
+
+git config http.postBuffer 52428800
+
+
+
+
